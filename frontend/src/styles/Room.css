@@ -1,0 +1,75 @@
+/* Chat Room Page Styling */
+.chat-room-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .back-link {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .messages-box {
+    border: 1px solid #ccc;
+    height: 250px;
+    overflow-y: auto;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .message strong {
+    color: #007bff;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

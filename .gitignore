@@ -1,3 +1,23 @@
-venv/
+# Ignore SQLite database file
+/db.sqlite3
+
+# Ignore Django migration files (compiled versions)
+/**/migrations/__pycache__/
+
+# Ignore frontend build files
+/frontend/node_modules
+/frontend/build
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore log files
+*.log
+
+# Ignore Python cache
 **/__pycache__/
 **/*.pyc
+**/*.pyo
+venv/
