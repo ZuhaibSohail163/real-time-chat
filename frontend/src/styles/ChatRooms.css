@@ -1,0 +1,73 @@
+/* ChatRooms Page Styling */
+.chatrooms-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .top-bar p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .logout-btn, .create-room-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .create-room-btn {
+    background-color: #28a745;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .create-room-btn:hover {
+    background-color: #218838;
+  }
+  
+  .rooms-list {
+    margin-top: 15px;
+  }
+  
+  .room {
+    padding: 10px;
+    margin: 5px 0;
+    background: #007bff;
+    border-radius: 5px;
+  }
+  
+  .room-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .room-link:hover {
+    background: #0056b3;
+  }
+  
